@@ -1,0 +1,54 @@
+.RangeSlider {
+    position: relative;
+    padding-top: 20px;
+}
+
+.RangeSlider div.rangeslider.rangeslider-vertical {
+    min-height: 200px;
+    position: absolute;
+    right: 50px;
+    top: 55px;
+}
+
+.RangeSlider .rangeslider-vertical, .RangeSlider .rangeslider__fill, .RangeSlider .rangeslider__handle {
+    border-radius: 0;
+}
+
+.RangeSlider .rangeslider__fill {
+    background-color: #1E88E5;
+}
+.RangeSlider .rangeslider__handle {
+    width: 30px;
+    height: 10px;
+}
+
+.RangeSlider .RangeValue {
+    font-size: 20px;
+}
+
+.glass {
+    margin: 30px auto;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-style: solid solid solid solid;
+    border-width: 10px;
+    border-color: lightgray;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+div.wave{
+	position: relative;
+	width: 100%;
+}
+div.wave > span{
+	float: left;
+    height: 200px;
+    margin-top: 0px;
+    animation: animate 1.5s ease-in-out alternate infinite;
+    background-color: #0E7DA8;
+}
+@keyframes animate{
+	to { margin-top: 15px; }
+}
