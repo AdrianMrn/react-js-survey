@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import 'react-rangeslider/lib/index.css'
 import './styles.css';
 
-import { Chart } from 'react-google-charts';
+/* import { Chart } from 'react-google-charts'; */
 
 class PageTwo extends Component {
     render() {
-        const options = {
+        /* const options = {
             region: 'BE',
             displayMode: 'region',
             resolution: 'provinces'
@@ -25,11 +25,12 @@ class PageTwo extends Component {
         {
             'type': 'number',
             'label': 'Number'
-        }];
+        }]; */
 
         return (
             <div>
-                <Chart
+                <h3>Welke Vlamingen drinken Antwerps water?</h3>
+                {/* <Chart
                     chartType="GeoChart"
                     width={"500px"}
                     height={"500px"}
@@ -37,7 +38,8 @@ class PageTwo extends Component {
                     columns={columns}
                     options={options}
                     graph_id="GeoChart"
-                    legend_toggle={true} />
+                    legend_toggle={true} /> */}
+
             </div>
         );
     }
