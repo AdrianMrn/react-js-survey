@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import RangeSlider from 'react-rangeslider'
 import 'react-rangeslider/lib/index.css'
-import './PageOne.css';
+import './styles.css';
 
 class PageOne extends Component {
     constructor() {

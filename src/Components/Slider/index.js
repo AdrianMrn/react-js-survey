@@ -4,7 +4,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import './Slider.css';
-import PageOne from '../Pages/PageOne';
+import Page1 from '../Pages/Page1';
+import Page2 from '../Pages/Page2';
+import Page3 from '../Pages/Page3';
+import Page4 from '../Pages/Page4';
+import Page5 from '../Pages/Page5';
 
 class App extends Component {
     render() {
@@ -19,19 +23,19 @@ class App extends Component {
         return (
             <Slider {...sliderSettings}>
                 <div>
-                    <PageOne />
+                    <Page1 />
                 </div>
                 <div>
-                    <h3>Welke Vlamingen drinken Antwerps water?</h3>
+                    <Page2 />
                 </div>
                 <div>
-                    <h3>Hoe snel kunnen we gebruikt water omzetten in drinkbaar water</h3>
+                    <Page3 />
                 </div>
                 <div>
-                    <h3>Wie heeft de slimste meters? Het waternetnetwerk of het elektriciteitsnetwerk</h3>
+                    <Page4 />
                 </div>
                 <div>
-                    <h3>Kan je een wijk bouwen zonder verwarming en toch warm water hebben?</h3>
+                    <Page5 />
                 </div>
             </Slider>
         );
